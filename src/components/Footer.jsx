@@ -21,7 +21,7 @@ function Footer() {
           {" "}
           <HiCake></HiCake>{" "}
         </div>
-        <div>Anshika</div>
+        <div>Anshika And Sonam !</div>
       </h2>
     </Footter>
   );
