@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #393646;
+  color: #f4eee0;
+}
+
+h4 {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 30px;
+}
+.title {
+  border-bottom: 5px solid #f4eee0;
+}
+.icons {
+  width: 40px;
+  height: 40px;
+}
+.links {
+  text-decoration: none;
+  color: #f4eee0;
+}
+.centring {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 30px;
+}
+.box {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: #4f4557;
+  border-radius: 15rem;
+}
+.textInput {
+  width: 400px;
+  padding: 10px;
+  background-color: #4f4557;
+
+  color: #f7efdc;
+  border-radius: 5rem;
+  font-size: 20px;
+  font-family: "Ubuntu Mono", monospace;
+  border: none;
+}
+.textInput:focus {
+  border: none;
+}
+.girdSystem {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.mainIcons {
+  width: 150px;
+  height: 150px;
+}
+.maintitle {
+}
+.maintitle:hover {
+  cursor: pointer;
+}
+.mainFontStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Dancing Script", cursive;
+  font-size: x-large;
+  background: #f4eee0;
+  background: linear-gradient(to right, #f4eee0 0%, #f5c453 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mainFontStyle:hover {
+  cursor: pointer;
+}
+.footerTitile {
+  font-family: "Dancing Script", cursive;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: #f4eee0;
+  background: linear-gradient(to right, #f4eee0 0%, #f5c453 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.heart {
+  margin-top: 10px;
+  color: rgb(213, 71, 71);
+}
+.singleLink {
+  text-decoration: none;
+  color: #f4eee0;
+}
+.justForPadding {
+  padding: 1rem 10rem;
+}
+.justForImage {
+  margin-top: 50px;
+  width: 550px;
+  height: 370px;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px 2px 17px 2px rgba(247, 239, 220, 0.69);
+  -moz-box-shadow: -1px 2px 17px 2px rgba(247, 239, 220, 0.69);
+  box-shadow: -1px 2px 17px 2px rgba(247, 239, 220, 0.69);
+}
+.recipeTitle {
+  font-family: "Dancing Script", cursive;
+  font-size: xxx-large;
+}
+
+.instructions {
+  font-family: "Work Sans", sans-serif;
+  line-height: 25px;
+  color: #f4eee0;
+  margin-top: 40px;
+}
+.instructions2 {
+  font-family: "Work Sans", sans-serif;
+  line-height: 25px;
+  font-size: 15px;
+  color: #f4eee0;
+}
